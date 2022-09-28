@@ -1,15 +1,10 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="Book">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element type="xs:string" name="Title"/>
-        <xs:element type="xs:string" name="Author"/>
-        <xs:element type="xs:string" name="Theme"/>
-        <xs:element type="xs:string" name="Publisher"/>
-        <xs:element type="xs:byte" name="ISBN"/>
-        <xs:element type="xs:string" name="Price"/>
-        <xs:element type="xs:string" name="Edition"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-</xs:schema>
+<?xml version="1.0" encoding="UTF-8"?>
+<Book>
+   <Title>Path To Paradise</Title>
+   <Author>David White</Author>
+   <Theme>Philosophy</Theme>
+   <Publisher>ABC Publication</Publisher>
+   <ISBN>11</ISBN>
+   <Price>$12481</Price>
+   <Edition>June 2000</Edition>
+</Book>
