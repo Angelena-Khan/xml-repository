@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<personal_information>
-	<person1>
-	<fname>Rabat Nasir</fname>
-	<lname>Nasir</lname>
-	<contact>03123456789</contact>
-	<email>Rabat@gmail.com</email>
-	<Address>...</Address>
-	</person1>
-	<person2>
-	<fname>Zunisha Khan</fname>
-	<lname>kanwal</lname>
-	<contact>03123456789</contact>
-	<email>zunisha@gmail.com</email>
-	<Address>...</Address>
-    </person2>
-    <person3>
-    <fname>Sobia Akram</fname>
-    <lname>Akram</lname>
-    <contact>03123456789</contact>
-    <email>sobia@gmail.com</email>
-    <Address>...</Address>
-    </person3>
-    <person4>
-    <fname>Safina</fname>
-    <lname>Naaz</lname>
-    <contact>03123456789</contact>
-    <email>safina@gmail.com</email>
-    <Address>...</Address>
-    </person4>
-</personal_information>
+<?xml-stylesheet type = "text/xsl" href = "First.xsl"?>
+<class>
+   <student>
+      <FirstName>Zunisha khan</FirstName>
+      <LastName>Zunish</LastName>
+      <NickName>Chuiyya</NickName>
+      <Address>Chuiyya Nagar</Address>
+      <Email>Zunish@gmail.com</Email>
+      <Contact>03123456789</Contact>
+   </student>
+</class>
